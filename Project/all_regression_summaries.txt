@@ -1,0 +1,1333 @@
+Regression summary for 원달러_환율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 원달러_환율   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                 -0.017
+Method:                 Least Squares   F-statistic:                    0.6511
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.429
+Time:                        21:49:23   Log-Likelihood:                -130.95
+No. Observations:                  22   AIC:                             265.9
+Df Residuals:                      20   BIC:                             268.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   1137.3512     24.937     45.609      0.000    1085.333    1189.369
+기준금리          -1.3694      1.697     -0.807      0.429      -4.909       2.171
+==============================================================================
+Omnibus:                        0.344   Durbin-Watson:                   1.110
+Prob(Omnibus):                  0.842   Jarque-Bera (JB):                0.466
+Skew:                          -0.240   Prob(JB):                        0.792
+Kurtosis:                       2.472   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/원달러_환율_vs_기준금리.png
+
+Regression summary for 원달러_절상율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                원달러_절상율   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.047
+Method:                 Least Squares   F-statistic:                   0.04976
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.826
+Time:                        21:49:23   Log-Likelihood:                -78.770
+No. Observations:                  22   AIC:                             161.5
+Df Residuals:                      20   BIC:                             163.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.7547      2.327      0.324      0.749      -4.100       5.610
+기준금리           0.0353      0.158      0.223      0.826      -0.295       0.366
+==============================================================================
+Omnibus:                        9.312   Durbin-Watson:                   2.101
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                7.255
+Skew:                          -1.033   Prob(JB):                       0.0266
+Kurtosis:                       4.909   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/원달러_절상율_vs_기준금리.png
+
+Regression summary for 엔달러_환율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 엔달러_환율   R-squared:                       0.029
+Model:                            OLS   Adj. R-squared:                 -0.020
+Method:                 Least Squares   F-statistic:                    0.5979
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.448
+Time:                        21:49:23   Log-Likelihood:                -91.161
+No. Observations:                  22   AIC:                             186.3
+Df Residuals:                      20   BIC:                             188.5
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    110.5606      4.088     27.047      0.000     102.034     119.088
+기준금리          -0.2151      0.278     -0.773      0.448      -0.795       0.365
+==============================================================================
+Omnibus:                        0.140   Durbin-Watson:                   0.419
+Prob(Omnibus):                  0.933   Jarque-Bera (JB):                0.250
+Skew:                          -0.161   Prob(JB):                        0.883
+Kurtosis:                       2.589   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/엔달러_환율_vs_기준금리.png
+
+Regression summary for 엔달러_절상율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                엔달러_절상율   R-squared:                       0.067
+Model:                            OLS   Adj. R-squared:                  0.021
+Method:                 Least Squares   F-statistic:                     1.440
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.244
+Time:                        21:49:23   Log-Likelihood:                -81.355
+No. Observations:                  22   AIC:                             166.7
+Df Residuals:                      20   BIC:                             168.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -1.5495      2.618     -0.592      0.561      -7.010       3.911
+기준금리           0.2137      0.178      1.200      0.244      -0.158       0.585
+==============================================================================
+Omnibus:                        0.227   Durbin-Watson:                   1.165
+Prob(Omnibus):                  0.892   Jarque-Bera (JB):                0.055
+Skew:                           0.103   Prob(JB):                        0.973
+Kurtosis:                       2.868   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/엔달러_절상율_vs_기준금리.png
+
+Regression summary for 원100엔_환율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               원100엔_환율   R-squared:                       0.011
+Model:                            OLS   Adj. R-squared:                 -0.038
+Method:                 Least Squares   F-statistic:                    0.2301
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.637
+Time:                        21:49:24   Log-Likelihood:                -145.72
+No. Observations:                  22   AIC:                             295.4
+Df Residuals:                      20   BIC:                             297.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   1044.9555     48.818     21.405      0.000     943.123    1146.788
+기준금리           1.5936      3.322      0.480      0.637      -5.337       8.524
+==============================================================================
+Omnibus:                        2.654   Durbin-Watson:                   0.753
+Prob(Omnibus):                  0.265   Jarque-Bera (JB):                2.060
+Skew:                           0.734   Prob(JB):                        0.357
+Kurtosis:                       2.692   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/원100엔_환율_vs_기준금리.png
+
+Regression summary for 원100엔_절상율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              원100엔_절상율   R-squared:                       0.024
+Model:                            OLS   Adj. R-squared:                 -0.025
+Method:                 Least Squares   F-statistic:                    0.4842
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.495
+Time:                        21:49:24   Log-Likelihood:                -87.611
+No. Observations:                  22   AIC:                             179.2
+Df Residuals:                      20   BIC:                             181.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.2798      3.479      0.943      0.357      -3.977      10.536
+기준금리          -0.1647      0.237     -0.696      0.495      -0.659       0.329
+==============================================================================
+Omnibus:                       11.911   Durbin-Watson:                   1.667
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               10.954
+Skew:                          -1.185   Prob(JB):                      0.00418
+Kurtosis:                       5.516   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/원100엔_절상율_vs_기준금리.png
+
+Regression summary for 가계신용 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   가계신용   R-squared:                       0.095
+Model:                            OLS   Adj. R-squared:                  0.050
+Method:                 Least Squares   F-statistic:                     2.103
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.163
+Time:                        21:49:24   Log-Likelihood:                -317.97
+No. Observations:                  22   AIC:                             639.9
+Df Residuals:                      20   BIC:                             642.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   1.191e+06   1.23e+05      9.709      0.000    9.35e+05    1.45e+06
+기준금리       -1.211e+04   8351.326     -1.450      0.163   -2.95e+04    5309.343
+==============================================================================
+Omnibus:                        2.077   Durbin-Watson:                   0.238
+Prob(Omnibus):                  0.354   Jarque-Bera (JB):                1.746
+Skew:                           0.582   Prob(JB):                        0.418
+Kurtosis:                       2.259   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/가계신용_vs_기준금리.png
+
+Regression summary for 가계대출 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   가계대출   R-squared:                       0.095
+Model:                            OLS   Adj. R-squared:                  0.050
+Method:                 Least Squares   F-statistic:                     2.106
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.162
+Time:                        21:49:24   Log-Likelihood:                -316.64
+No. Observations:                  22   AIC:                             637.3
+Df Residuals:                      20   BIC:                             639.5
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   1.122e+06   1.15e+05      9.716      0.000    8.81e+05    1.36e+06
+기준금리       -1.141e+04   7860.146     -1.451      0.162   -2.78e+04    4988.315
+==============================================================================
+Omnibus:                        1.986   Durbin-Watson:                   0.240
+Prob(Omnibus):                  0.370   Jarque-Bera (JB):                1.678
+Skew:                           0.567   Prob(JB):                        0.432
+Kurtosis:                       2.263   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/가계대출_vs_기준금리.png
+
+Regression summary for 판매신용 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   판매신용   R-squared:                       0.089
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     1.951
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.178
+Time:                        21:49:24   Log-Likelihood:                -256.19
+No. Observations:                  22   AIC:                             516.4
+Df Residuals:                      20   BIC:                             518.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   6.929e+04   7400.490      9.363      0.000    5.39e+04    8.47e+04
+기준금리        -703.5565    503.643     -1.397      0.178   -1754.138     347.025
+==============================================================================
+Omnibus:                        2.590   Durbin-Watson:                   0.235
+Prob(Omnibus):                  0.274   Jarque-Bera (JB):                2.185
+Skew:                           0.714   Prob(JB):                        0.335
+Kurtosis:                       2.414   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/판매신용_vs_기준금리.png
+
+Regression summary for GDP대비_가계부채_비율 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          GDP대비_가계부채_비율   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.077
+Method:                 Least Squares   F-statistic:                     2.740
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.113
+Time:                        21:49:24   Log-Likelihood:                -82.710
+No. Observations:                  22   AIC:                             169.4
+Df Residuals:                      20   BIC:                             171.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     73.0722      2.784     26.248      0.000      67.265      78.879
+기준금리          -0.3136      0.189     -1.655      0.113      -0.709       0.082
+==============================================================================
+Omnibus:                        2.418   Durbin-Watson:                   0.273
+Prob(Omnibus):                  0.298   Jarque-Bera (JB):                2.045
+Skew:                           0.687   Prob(JB):                        0.360
+Kurtosis:                       2.414   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/GDP대비_가계부채_비율_vs_기준금리.png
+
+Regression summary for KOSPI vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  KOSPI   R-squared:                       0.059
+Model:                            OLS   Adj. R-squared:                  0.012
+Method:                 Least Squares   F-statistic:                     1.256
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.276
+Time:                        21:49:24   Log-Likelihood:                -171.01
+No. Observations:                  22   AIC:                             346.0
+Df Residuals:                      20   BIC:                             348.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   1943.8712    154.081     12.616      0.000    1622.463    2265.279
+기준금리         -11.7504     10.486     -1.121      0.276     -33.624      10.123
+==============================================================================
+Omnibus:                        0.516   Durbin-Watson:                   0.615
+Prob(Omnibus):                  0.773   Jarque-Bera (JB):                0.019
+Skew:                           0.050   Prob(JB):                        0.990
+Kurtosis:                       3.105   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/KOSPI_vs_기준금리.png
+
+Regression summary for KOSDAQ vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 KOSDAQ   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                 -0.034
+Method:                 Least Squares   F-statistic:                    0.3095
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.584
+Time:                        21:49:25   Log-Likelihood:                -143.91
+No. Observations:                  22   AIC:                             291.8
+Df Residuals:                      20   BIC:                             294.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    627.3913     44.947     13.958      0.000     533.633     721.150
+기준금리          -1.7017      3.059     -0.556      0.584      -8.082       4.679
+==============================================================================
+Omnibus:                        5.504   Durbin-Watson:                   0.984
+Prob(Omnibus):                  0.064   Jarque-Bera (JB):                3.452
+Skew:                           0.907   Prob(JB):                        0.178
+Kurtosis:                       3.691   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/KOSDAQ_vs_기준금리.png
+
+Regression summary for 고용률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    고용률   R-squared:                       0.081
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     1.760
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.200
+Time:                        21:49:25   Log-Likelihood:                -17.846
+No. Observations:                  22   AIC:                             39.69
+Df Residuals:                      20   BIC:                             41.87
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     60.1295      0.146    411.986      0.000      59.825      60.434
+기준금리          -0.0132      0.010     -1.327      0.200      -0.034       0.008
+==============================================================================
+Omnibus:                        5.210   Durbin-Watson:                   0.657
+Prob(Omnibus):                  0.074   Jarque-Bera (JB):                3.272
+Skew:                          -0.898   Prob(JB):                        0.195
+Kurtosis:                       3.587   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/고용률_vs_기준금리.png
+
+Regression summary for 국고채_3년 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 국고채_3년   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                 -0.049
+Method:                 Least Squares   F-statistic:                   0.01289
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.911
+Time:                        21:49:25   Log-Likelihood:                -79.328
+No. Observations:                  22   AIC:                             162.7
+Df Residuals:                      20   BIC:                             164.8
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      5.0174      2.387      2.102      0.048       0.038       9.997
+기준금리           0.0184      0.162      0.114      0.911      -0.320       0.357
+==============================================================================
+Omnibus:                       54.129   Durbin-Watson:                   1.031
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              305.155
+Skew:                           4.208   Prob(JB):                     5.45e-67
+Kurtosis:                      19.188   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/국고채_3년_vs_기준금리.png
+
+Regression summary for 국고채_5년 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 국고채_5년   R-squared:                       0.156
+Model:                            OLS   Adj. R-squared:                  0.113
+Method:                 Least Squares   F-statistic:                     3.685
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0693
+Time:                        21:49:25   Log-Likelihood:                -37.102
+No. Observations:                  22   AIC:                             78.20
+Df Residuals:                      20   BIC:                             80.39
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.1140      0.350      8.892      0.000       2.383       3.844
+기준금리           0.0457      0.024      1.920      0.069      -0.004       0.095
+==============================================================================
+Omnibus:                        0.203   Durbin-Watson:                   0.553
+Prob(Omnibus):                  0.904   Jarque-Bera (JB):                0.310
+Skew:                           0.194   Prob(JB):                        0.857
+Kurtosis:                       2.567   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/국고채_5년_vs_기준금리.png
+
+Regression summary for 국고채_10년 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                국고채_10년   R-squared:                       0.161
+Model:                            OLS   Adj. R-squared:                  0.119
+Method:                 Least Squares   F-statistic:                     3.841
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0641
+Time:                        21:49:25   Log-Likelihood:                -37.390
+No. Observations:                  22   AIC:                             78.78
+Df Residuals:                      20   BIC:                             80.96
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.3667      0.355      9.488      0.000       2.627       4.107
+기준금리           0.0473      0.024      1.960      0.064      -0.003       0.098
+==============================================================================
+Omnibus:                        0.459   Durbin-Watson:                   0.532
+Prob(Omnibus):                  0.795   Jarque-Bera (JB):                0.426
+Skew:                           0.291   Prob(JB):                        0.808
+Kurtosis:                       2.645   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/국고채_10년_vs_기준금리.png
+
+Regression summary for 회사채_3년 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 회사채_3년   R-squared:                       0.113
+Model:                            OLS   Adj. R-squared:                  0.069
+Method:                 Least Squares   F-statistic:                     2.546
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.126
+Time:                        21:49:25   Log-Likelihood:                -39.477
+No. Observations:                  22   AIC:                             82.95
+Df Residuals:                      20   BIC:                             85.14
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.6159      0.390      9.268      0.000       2.802       4.430
+기준금리           0.0424      0.027      1.596      0.126      -0.013       0.098
+==============================================================================
+Omnibus:                        1.081   Durbin-Watson:                   0.597
+Prob(Omnibus):                  0.583   Jarque-Bera (JB):                0.944
+Skew:                           0.456   Prob(JB):                        0.624
+Kurtosis:                       2.554   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/회사채_3년_vs_기준금리.png
+
+Regression summary for 평균 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     평균   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                 -0.016
+Method:                 Least Squares   F-statistic:                    0.6747
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.421
+Time:                        21:49:25   Log-Likelihood:                -447.92
+No. Observations:                  22   AIC:                             899.8
+Df Residuals:                      20   BIC:                             902.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   4.596e+08   4.51e+07     10.191      0.000    3.66e+08    5.54e+08
+기준금리       -2.521e+06   3.07e+06     -0.821      0.421   -8.92e+06    3.88e+06
+==============================================================================
+Omnibus:                        3.803   Durbin-Watson:                   1.016
+Prob(Omnibus):                  0.149   Jarque-Bera (JB):                2.381
+Skew:                          -0.796   Prob(JB):                        0.304
+Kurtosis:                       3.251   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/평균_vs_기준금리.png
+
+Regression summary for CD_91물 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 CD_91물   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.077
+Method:                 Least Squares   F-statistic:                     2.748
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.113
+Time:                        21:49:25   Log-Likelihood:                -34.792
+No. Observations:                  22   AIC:                             73.58
+Df Residuals:                      20   BIC:                             75.77
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.3705      0.315      7.518      0.000       1.713       3.028
+기준금리           0.0356      0.021      1.658      0.113      -0.009       0.080
+==============================================================================
+Omnibus:                        0.301   Durbin-Watson:                   0.700
+Prob(Omnibus):                  0.860   Jarque-Bera (JB):                0.417
+Skew:                          -0.230   Prob(JB):                        0.812
+Kurtosis:                       2.507   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/CD_91물_vs_기준금리.png
+
+Regression summary for 콜금리 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    콜금리   R-squared:                       0.173
+Model:                            OLS   Adj. R-squared:                  0.132
+Method:                 Least Squares   F-statistic:                     4.190
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0540
+Time:                        21:49:26   Log-Likelihood:                -33.067
+No. Observations:                  22   AIC:                             70.13
+Df Residuals:                      20   BIC:                             72.32
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.3079      0.292      7.917      0.000       1.700       2.916
+기준금리           0.0406      0.020      2.047      0.054      -0.001       0.082
+==============================================================================
+Omnibus:                        0.027   Durbin-Watson:                   0.891
+Prob(Omnibus):                  0.986   Jarque-Bera (JB):                0.190
+Skew:                          -0.070   Prob(JB):                        0.909
+Kurtosis:                       2.567   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/콜금리_vs_기준금리.png
+
+Regression summary for 평균 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     평균   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                 -0.016
+Method:                 Least Squares   F-statistic:                    0.6747
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.421
+Time:                        21:49:26   Log-Likelihood:                -447.92
+No. Observations:                  22   AIC:                             899.8
+Df Residuals:                      20   BIC:                             902.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   4.596e+08   4.51e+07     10.191      0.000    3.66e+08    5.54e+08
+기준금리       -2.521e+06   3.07e+06     -0.821      0.421   -8.92e+06    3.88e+06
+==============================================================================
+Omnibus:                        3.803   Durbin-Watson:                   1.016
+Prob(Omnibus):                  0.149   Jarque-Bera (JB):                2.381
+Skew:                          -0.796   Prob(JB):                        0.304
+Kurtosis:                       3.251   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/평균_vs_기준금리.png
+
+Regression summary for 수출_금액 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  수출_금액   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                 -0.016
+Method:                 Least Squares   F-statistic:                    0.6784
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.420
+Time:                        21:49:26   Log-Likelihood:                -445.37
+No. Observations:                  22   AIC:                             894.7
+Df Residuals:                      20   BIC:                             896.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   4.572e+08   4.02e+07     11.384      0.000    3.73e+08    5.41e+08
+기준금리       -2.251e+06   2.73e+06     -0.824      0.420   -7.95e+06    3.45e+06
+==============================================================================
+Omnibus:                        0.071   Durbin-Watson:                   0.372
+Prob(Omnibus):                  0.965   Jarque-Bera (JB):                0.217
+Skew:                           0.114   Prob(JB):                        0.897
+Kurtosis:                       2.570   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/수출_금액_vs_기준금리.png
+
+Regression summary for 수출_증감률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 수출_증감률   R-squared:                       0.862
+Model:                            OLS   Adj. R-squared:                  0.855
+Method:                 Least Squares   F-statistic:                     124.8
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):           4.77e-10
+Time:                        21:49:26   Log-Likelihood:                -69.249
+No. Observations:                  22   AIC:                             142.5
+Df Residuals:                      20   BIC:                             144.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4489      1.510      0.297      0.769      -2.701       3.598
+기준금리           1.1477      0.103     11.170      0.000       0.933       1.362
+==============================================================================
+Omnibus:                        0.422   Durbin-Watson:                   1.329
+Prob(Omnibus):                  0.810   Jarque-Bera (JB):                0.071
+Skew:                           0.139   Prob(JB):                        0.965
+Kurtosis:                       2.984   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/수출_증감률_vs_기준금리.png
+
+Regression summary for 수입_금액 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  수입_금액   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.006
+Method:                 Least Squares   F-statistic:                     1.124
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.302
+Time:                        21:49:26   Log-Likelihood:                -413.59
+No. Observations:                  22   AIC:                             831.2
+Df Residuals:                      20   BIC:                             833.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept   3.686e+07   9.47e+06      3.892      0.001    1.71e+07    5.66e+07
+기준금리       -6.834e+05   6.45e+05     -1.060      0.302   -2.03e+06    6.61e+05
+==============================================================================
+Omnibus:                        2.799   Durbin-Watson:                   0.643
+Prob(Omnibus):                  0.247   Jarque-Bera (JB):                1.289
+Skew:                          -0.518   Prob(JB):                        0.525
+Kurtosis:                       3.576   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/수입_금액_vs_기준금리.png
+
+Regression summary for 수입_증감률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 수입_증감률   R-squared:                       0.135
+Model:                            OLS   Adj. R-squared:                  0.092
+Method:                 Least Squares   F-statistic:                     3.130
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0921
+Time:                        21:49:26   Log-Likelihood:                -84.079
+No. Observations:                  22   AIC:                             172.2
+Df Residuals:                      20   BIC:                             174.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     92.1622      2.963     31.108      0.000      85.982      98.342
+기준금리          -0.3567      0.202     -1.769      0.092      -0.777       0.064
+==============================================================================
+Omnibus:                        0.391   Durbin-Watson:                   0.321
+Prob(Omnibus):                  0.822   Jarque-Bera (JB):                0.519
+Skew:                          -0.021   Prob(JB):                        0.771
+Kurtosis:                       2.249   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/수입_증감률_vs_기준금리.png
+
+Regression summary for 수지 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     수지   R-squared:                       0.252
+Model:                            OLS   Adj. R-squared:                  0.215
+Method:                 Least Squares   F-statistic:                     6.753
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0172
+Time:                        21:49:26   Log-Likelihood:                -35.015
+No. Observations:                  22   AIC:                             74.03
+Df Residuals:                      20   BIC:                             76.21
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.0574      0.319      6.459      0.000       1.393       2.722
+기준금리           0.0563      0.022      2.599      0.017       0.011       0.102
+==============================================================================
+Omnibus:                        5.807   Durbin-Watson:                   0.952
+Prob(Omnibus):                  0.055   Jarque-Bera (JB):                4.517
+Skew:                           1.110   Prob(JB):                        0.105
+Kurtosis:                       3.048   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/수지_vs_기준금리.png
+
+Regression summary for 소비자물가_총지수2020 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          소비자물가_총지수2020   R-squared:                       0.183
+Model:                            OLS   Adj. R-squared:                  0.142
+Method:                 Least Squares   F-statistic:                     4.469
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0473
+Time:                        21:49:26   Log-Likelihood:                -48.557
+No. Observations:                  22   AIC:                             101.1
+Df Residuals:                      20   BIC:                             103.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      3.3131      0.589      5.621      0.000       2.084       4.543
+기준금리           0.0848      0.040      2.114      0.047       0.001       0.168
+==============================================================================
+Omnibus:                        0.985   Durbin-Watson:                   1.284
+Prob(Omnibus):                  0.611   Jarque-Bera (JB):                0.470
+Skew:                           0.358   Prob(JB):                        0.791
+Kurtosis:                       2.979   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/소비자물가_총지수2020_vs_기준금리.png
+
+Regression summary for 소비자물가상승률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               소비자물가상승률   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                 -0.028
+Method:                 Least Squares   F-statistic:                    0.4185
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.525
+Time:                        21:49:27   Log-Likelihood:                -101.56
+No. Observations:                  22   AIC:                             207.1
+Df Residuals:                      20   BIC:                             209.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     11.4296      6.558      1.743      0.097      -2.250      25.109
+기준금리          -0.2887      0.446     -0.647      0.525      -1.220       0.642
+==============================================================================
+Omnibus:                       43.390   Durbin-Watson:                   1.311
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              151.646
+Skew:                           3.388   Prob(JB):                     1.18e-33
+Kurtosis:                      13.933   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/소비자물가상승률_vs_기준금리.png
+
+Regression summary for 식료품_비주류음료 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              식료품_비주류음료   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                 -0.023
+Method:                 Least Squares   F-statistic:                    0.5319
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.474
+Time:                        21:49:27   Log-Likelihood:                -38.427
+No. Observations:                  22   AIC:                             80.85
+Df Residuals:                      20   BIC:                             83.04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.5268      0.372      6.794      0.000       1.751       3.303
+기준금리          -0.0185      0.025     -0.729      0.474      -0.071       0.034
+==============================================================================
+Omnibus:                        2.678   Durbin-Watson:                   0.951
+Prob(Omnibus):                  0.262   Jarque-Bera (JB):                1.242
+Skew:                          -0.128   Prob(JB):                        0.537
+Kurtosis:                       1.864   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/식료품_비주류음료_vs_기준금리.png
+
+Regression summary for 주류_및_담배 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                주류_및_담배   R-squared:                       0.155
+Model:                            OLS   Adj. R-squared:                  0.113
+Method:                 Least Squares   F-statistic:                     3.666
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0700
+Time:                        21:49:27   Log-Likelihood:                -41.748
+No. Observations:                  22   AIC:                             87.50
+Df Residuals:                      20   BIC:                             89.68
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.0799      0.433      4.808      0.000       1.178       2.982
+기준금리           0.0564      0.029      1.915      0.070      -0.005       0.118
+==============================================================================
+Omnibus:                        1.307   Durbin-Watson:                   1.085
+Prob(Omnibus):                  0.520   Jarque-Bera (JB):                1.155
+Skew:                           0.411   Prob(JB):                        0.561
+Kurtosis:                       2.236   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/주류_및_담배_vs_기준금리.png
+
+Regression summary for 의류_및_신발 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                의류_및_신발   R-squared:                       0.053
+Model:                            OLS   Adj. R-squared:                  0.006
+Method:                 Least Squares   F-statistic:                     1.118
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.303
+Time:                        21:49:27   Log-Likelihood:                -38.024
+No. Observations:                  22   AIC:                             80.05
+Df Residuals:                      20   BIC:                             82.23
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.1538      0.365      5.898      0.000       1.392       2.916
+기준금리          -0.0263      0.025     -1.058      0.303      -0.078       0.026
+==============================================================================
+Omnibus:                        1.371   Durbin-Watson:                   1.841
+Prob(Omnibus):                  0.504   Jarque-Bera (JB):                1.197
+Skew:                           0.512   Prob(JB):                        0.550
+Kurtosis:                       2.493   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/의류_및_신발_vs_기준금리.png
+
+Regression summary for 주택_수도_전기_및_연료 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          주택_수도_전기_및_연료   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.048
+Method:                 Least Squares   F-statistic:                   0.03249
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.859
+Time:                        21:49:27   Log-Likelihood:                -38.417
+No. Observations:                  22   AIC:                             80.83
+Df Residuals:                      20   BIC:                             83.02
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.3767      0.372      3.703      0.001       0.601       2.152
+기준금리           0.0046      0.025      0.180      0.859      -0.048       0.057
+==============================================================================
+Omnibus:                       29.371   Durbin-Watson:                   1.230
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               63.863
+Skew:                           2.274   Prob(JB):                     1.36e-14
+Kurtosis:                       9.999   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/주택_수도_전기_및_연료_vs_기준금리.png
+
+Regression summary for 가정용품_및_가사_서비스 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          가정용품_및_가사_서비스   R-squared:                       0.497
+Model:                            OLS   Adj. R-squared:                  0.472
+Method:                 Least Squares   F-statistic:                     19.77
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):           0.000248
+Time:                        21:49:27   Log-Likelihood:                -55.115
+No. Observations:                  22   AIC:                             114.2
+Df Residuals:                      20   BIC:                             116.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.4806      0.794      0.605      0.552      -1.176       2.137
+기준금리           0.2403      0.054      4.447      0.000       0.128       0.353
+==============================================================================
+Omnibus:                        3.301   Durbin-Watson:                   1.484
+Prob(Omnibus):                  0.192   Jarque-Bera (JB):                1.559
+Skew:                           0.484   Prob(JB):                        0.459
+Kurtosis:                       3.875   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/가정용품_및_가사_서비스_vs_기준금리.png
+
+Regression summary for 보건 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     보건   R-squared:                       0.025
+Model:                            OLS   Adj. R-squared:                 -0.024
+Method:                 Least Squares   F-statistic:                    0.5161
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.481
+Time:                        21:49:27   Log-Likelihood:                -46.225
+No. Observations:                  22   AIC:                             96.45
+Df Residuals:                      20   BIC:                             98.63
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.8355      0.530     -1.576      0.131      -1.941       0.270
+기준금리          -0.0259      0.036     -0.718      0.481      -0.101       0.049
+==============================================================================
+Omnibus:                       11.395   Durbin-Watson:                   0.693
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.497
+Skew:                           0.941   Prob(JB):                      0.00193
+Kurtosis:                       6.177   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/보건_vs_기준금리.png
+
+Regression summary for 교통 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     교통   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                 -0.032
+Method:                 Least Squares   F-statistic:                    0.3558
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.558
+Time:                        21:49:27   Log-Likelihood:                -35.070
+No. Observations:                  22   AIC:                             74.14
+Df Residuals:                      20   BIC:                             76.32
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.5777      0.319      1.809      0.085      -0.088       1.244
+기준금리          -0.0130      0.022     -0.596      0.558      -0.058       0.032
+==============================================================================
+Omnibus:                        1.185   Durbin-Watson:                   1.305
+Prob(Omnibus):                  0.553   Jarque-Bera (JB):                0.633
+Skew:                          -0.415   Prob(JB):                        0.729
+Kurtosis:                       2.960   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/교통_vs_기준금리.png
+
+Regression summary for 통신 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     통신   R-squared:                       0.179
+Model:                            OLS   Adj. R-squared:                  0.138
+Method:                 Least Squares   F-statistic:                     4.358
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):             0.0498
+Time:                        21:49:28   Log-Likelihood:                -48.764
+No. Observations:                  22   AIC:                             101.5
+Df Residuals:                      20   BIC:                             103.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.6380      0.595      2.753      0.012       0.397       2.879
+기준금리           0.0845      0.040      2.088      0.050    6.86e-05       0.169
+==============================================================================
+Omnibus:                        1.439   Durbin-Watson:                   0.600
+Prob(Omnibus):                  0.487   Jarque-Bera (JB):                0.935
+Skew:                          -0.500   Prob(JB):                        0.627
+Kurtosis:                       2.853   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/통신_vs_기준금리.png
+
+Regression summary for 오락_및_문화 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                오락_및_문화   R-squared:                       0.051
+Model:                            OLS   Adj. R-squared:                  0.004
+Method:                 Least Squares   F-statistic:                     1.076
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.312
+Time:                        21:49:28   Log-Likelihood:                -39.348
+No. Observations:                  22   AIC:                             82.70
+Df Residuals:                      20   BIC:                             84.88
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.5419      0.388      6.554      0.000       1.733       3.351
+기준금리           0.0274      0.026      1.037      0.312      -0.028       0.082
+==============================================================================
+Omnibus:                       18.304   Durbin-Watson:                   2.312
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.298
+Skew:                           1.709   Prob(JB):                     2.37e-05
+Kurtosis:                       6.399   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/오락_및_문화_vs_기준금리.png
+
+Regression summary for 교육 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     교육   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                 -0.045
+Method:                 Least Squares   F-statistic:                   0.09229
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.764
+Time:                        21:49:28   Log-Likelihood:                -50.631
+No. Observations:                  22   AIC:                             105.3
+Df Residuals:                      20   BIC:                             107.4
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      2.9370      0.648      4.534      0.000       1.586       4.288
+기준금리           0.0134      0.044      0.304      0.764      -0.079       0.105
+==============================================================================
+Omnibus:                        2.962   Durbin-Watson:                   1.110
+Prob(Omnibus):                  0.227   Jarque-Bera (JB):                1.405
+Skew:                           0.104   Prob(JB):                        0.495
+Kurtosis:                       4.221   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/교육_vs_기준금리.png
+
+Regression summary for 음식_및_숙박 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                음식_및_숙박   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                 -0.021
+Method:                 Least Squares   F-statistic:                    0.5707
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.459
+Time:                        21:49:28   Log-Likelihood:                -97.550
+No. Observations:                  22   AIC:                             199.1
+Df Residuals:                      20   BIC:                             201.3
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     79.5986      5.465     14.565      0.000      68.198      90.999
+기준금리          -0.2810      0.372     -0.755      0.459      -1.057       0.495
+==============================================================================
+Omnibus:                       26.809   Durbin-Watson:                   1.149
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               51.204
+Skew:                          -2.124   Prob(JB):                     7.61e-12
+Kurtosis:                       9.150   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/음식_및_숙박_vs_기준금리.png
+
+Regression summary for 기타_상품_및_서비스 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            기타_상품_및_서비스   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                 -0.023
+Method:                 Least Squares   F-statistic:                    0.5262
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.477
+Time:                        21:49:28   Log-Likelihood:                -97.193
+No. Observations:                  22   AIC:                             198.4
+Df Residuals:                      20   BIC:                             200.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     77.4411      5.377     14.401      0.000      66.224      88.658
+기준금리          -0.2655      0.366     -0.725      0.477      -1.029       0.498
+==============================================================================
+Omnibus:                       19.713   Durbin-Watson:                   1.113
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.434
+Skew:                          -1.663   Prob(JB):                     1.10e-06
+Kurtosis:                       7.344   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/기타_상품_및_서비스_vs_기준금리.png
+
+Regression summary for 전국_주택매매가격변동률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           전국_주택매매가격변동률   R-squared:                       0.102
+Model:                            OLS   Adj. R-squared:                  0.057
+Method:                 Least Squares   F-statistic:                     2.281
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.147
+Time:                        21:49:28   Log-Likelihood:                -86.372
+No. Observations:                  22   AIC:                             176.7
+Df Residuals:                      20   BIC:                             178.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     84.3419      3.288     25.651      0.000      77.483      91.201
+기준금리          -0.3379      0.224     -1.510      0.147      -0.805       0.129
+==============================================================================
+Omnibus:                        0.238   Durbin-Watson:                   0.371
+Prob(Omnibus):                  0.888   Jarque-Bera (JB):                0.120
+Skew:                           0.154   Prob(JB):                        0.942
+Kurtosis:                       2.809   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/전국_주택매매가격변동률_vs_기준금리.png
+
+Regression summary for 수도권_주택매매가격변동률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          수도권_주택매매가격변동률   R-squared:                       0.078
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                     1.690
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.208
+Time:                        21:49:28   Log-Likelihood:                -88.445
+No. Observations:                  22   AIC:                             180.9
+Df Residuals:                      20   BIC:                             183.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     81.9528      3.613     22.683      0.000      74.416      89.489
+기준금리          -0.3197      0.246     -1.300      0.208      -0.833       0.193
+==============================================================================
+Omnibus:                        0.447   Durbin-Watson:                   0.355
+Prob(Omnibus):                  0.800   Jarque-Bera (JB):                0.068
+Skew:                           0.136   Prob(JB):                        0.966
+Kurtosis:                       3.004   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/수도권_주택매매가격변동률_vs_기준금리.png
+
+Regression summary for 지방_주택매매가격변동률 vs 기준금리:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           지방_주택매매가격변동률   R-squared:                       0.117
+Model:                            OLS   Adj. R-squared:                  0.073
+Method:                 Least Squares   F-statistic:                     2.660
+Date:                Mon, 23 Dec 2024   Prob (F-statistic):              0.119
+Time:                        21:49:29   Log-Likelihood:                -84.722
+No. Observations:                  22   AIC:                             173.4
+Df Residuals:                      20   BIC:                             175.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     86.8060      3.050     28.457      0.000      80.443      93.169
+기준금리          -0.3386      0.208     -1.631      0.119      -0.772       0.094
+==============================================================================
+Omnibus:                        0.540   Durbin-Watson:                   0.389
+Prob(Omnibus):                  0.763   Jarque-Bera (JB):                0.611
+Skew:                           0.135   Prob(JB):                        0.737
+Kurtosis:                       2.230   Cond. No.                         17.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+================================================================================
+
+Scatter plot saved at: scatter_plots/지방_주택매매가격변동률_vs_기준금리.png
+
